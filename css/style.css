@@ -1,0 +1,166 @@
+@font-face {
+    src: url('Chunk Five Print.ttf');
+}
+
+body {
+    background: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.color-breeze {
+    color: #01a2a6;
+}
+
+.header-main {
+    padding-top: 20px;
+    height: 735px;
+    background-image: url('header-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header,
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Montserrat";
+    font-size: 26px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Lato";
+    font-size: 14px;
+}
+
+nav a:hover {
+    border: 3px solid white;
+    border-radius: 25px;
+    padding: 10px;
+    margin: -13px;
+}
+
+nav li {
+    margin: 0 60px 0 0;
+}
+
+@media screen and (max-width: 650px) {
+    .logo img {
+        flex-direction: column;
+        margin: 0;
+    }
+    header {
+        flex-direction: column;
+    }
+    header nav ul {
+        flex-direction: column;
+        align-self: center;
+    }
+    header nav ul li {
+        margin: 5px;
+    }
+}
+
+.header-info {
+    color: #fff;
+    margin: auto;
+    text-align: center;
+}
+
+.header-info h1 {
+    font-size: 80px;
+    font-family: "Chunk Five Print";
+    text-transform: uppercase;
+}
+
+.header-info p {
+    font-size: 18px;
+    font-family: "Lato";
+    line-height: 2;
+    text-shadow: 1px 1px #000, -1px 1px #000, 1px -1px #000, -1px -1px #000, 1px 1px 5px #fff;
+    margin-bottom: 50px;
+}
+
+.header-button {
+    background-color: #ffffa6;
+    border-radius: 40px;
+    display: inline-block;
+    cursor: pointer;
+    color: #10273d;
+    font-size: 16px;
+    padding: 30px 40px;
+    text-decoration: none;
+}
+
+.header-button:hover {
+    border: 3px solid #baeddb;
+    margin: -3px;
+}
+
+.header-button:active {
+    position: relative;
+    top: 5px;
+}
+
+.white-stripe {
+    align-items: flex-end;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.87;
+    height: 40px;
+    width: 75%;
+    margin: auto;
+    margin-top: 220px;
+}
+
+.about-main {
+    width: 100%;
+    height: 450px;
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 70%;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.87;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.about-text h1 {
+    font-size: 60px;
+    color: rgb(41, 217, 194);
+    font-weight: bold;
+    font-family: "Chunk Five Print";
+}
+
+.about-text p {
+    font-size: 16px;
+    font-family: "Lato";
+    color: rgb(119, 119, 119);
+    line-height: 2;
+}
+
+.destination {
+    display: flex;
+    width: 100%;
+    background-color: #f2fefe;
+    height: 500px;
+}
